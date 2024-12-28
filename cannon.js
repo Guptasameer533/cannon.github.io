@@ -219,7 +219,7 @@ function updatepositions(){
 
     // if one second has passed
     if(time_interval * timer_count >= 1000){
-        --time_interval;
+        --time_left;
         ++time_elapsed;
         timer_count=0;
     }
