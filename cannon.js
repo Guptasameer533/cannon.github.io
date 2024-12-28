@@ -144,7 +144,7 @@ function newgame(){
         target_piece_hit = 0;
         blocker_velocity = initial_blocker_velocity;
         target_velocity = initial_target_velocity;
-        time_left = 10;
+        time_left = 20;
         timer_count = 0;
         cannonball_on_screen = false;
         shots_fired = 0;
